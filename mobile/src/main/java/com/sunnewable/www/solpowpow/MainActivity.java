@@ -25,11 +25,12 @@ public class MainActivity extends AppCompatActivity {
         pvLayoutManager = new LinearLayoutManager(this);
         powerArrayList = new ArrayList<>();
         pvAdapter = new powReaderAdapter(this, powerArrayList);
-        pvRecyclerView.setAdapter(pvAdapter);
+
         //pvRecyclerView.setLayoutManager(pvLayoutManager);
         //pvAdapter = new MyAdapter(myDataset);
        // pvRecyclerView.setAdapter(pvAdapter);
         CreateListData();
+        pvRecyclerView.setAdapter(pvAdapter);
     }
 
     public void CreateListData(){

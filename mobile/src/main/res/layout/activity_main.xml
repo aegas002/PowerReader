@@ -9,12 +9,16 @@
 
     <include layout="@layout/bar"/>
 
+
     <android.support.v7.widget.RecyclerView
         android:id="@+id/bigRecycler"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:clickable="false" />
+        android:clickable="false">
 
+        <include layout="@layout/item_row"/>
+
+    </android.support.v7.widget.RecyclerView>
 </LinearLayout>
 
 
