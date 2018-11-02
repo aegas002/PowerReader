@@ -16,7 +16,7 @@
         android:layout_height="match_parent"
         android:clickable="false">
 
-        <include layout="@layout/item_row"/>
+        <include layout="@layout/cardview"/>
 
     </android.support.v7.widget.RecyclerView>
 </LinearLayout>
